@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- <script>
@@ -27,12 +28,41 @@
         } while (attemp < 3);
 
     </script> -->
-<h2>Enter a PIN-code.</h2>
-<p>You have only 3 attempt(s).</p>
-<form>
-    <input type="text">
-    <button>Enter</button>
-</form>
+    <script>
+
+        document.getElementById("test").style.color = "red";
+
+        // let attemp = 0;
+        // let pin = "1111";
+        // let count = 3;
+        // do {
+        //     let pinEnter = ("Enter a PIN-code. You have only " + count + " attempt(s).");
+        //     if (pinEnter === pin) {
+        //         //("Success!");
+        //         break;
+        //     } else {
+        //         //("Try again");
+        //         attemp++;
+        //         count--;
+        //         if (attemp == 3) {
+        //             //("Card is locked! Try to get more information later.");
+        //         }
+        //     }
+        // } while (attemp < 3);
+        
+
+
+    </script>
+<div class="form">
+    <h2>Enter a PIN-code.</h2>
+    <p id="test">You have only <span id="countAttempt">3</span> attempt(s).</p>
+    <form>
+        <input id="textPin" type="password">
+        <button id="button" >Enter</button>
+    </form>
+</div>
+
+    
 
 
 
