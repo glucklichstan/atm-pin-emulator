@@ -5,6 +5,10 @@ body{
 }
 button{
     margin-top: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
 }
 img{
     margin-top: 20px;
