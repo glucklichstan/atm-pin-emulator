@@ -1,13 +1,55 @@
-//var countingAttempts = document.getElementById('attepmptsId');
 
-document.getElementById('buttonId').onclick = myClick;
 
-function myClick() {
-    let recivePin = document.getElementById('pinId').value;
-    console.log(recivePin);
-}
 
-    
+
+
+
+
+
+
+
+
+
+// let attemptCount = document.getElementById('attepmptsId');
+// let button = document.getElementById('buttonId');
+// let pinInputs = document.getElementById('pinId').value;
+// let wholeString = document.getElementById('stringId');
+
+// document.getElementById('buttonId').addEventListener('click', ()=>{
+//     let pinInputs = document.getElementById('pinId').value;
+//     let attemp = 0;
+//     let pin = "1111";
+//     var count = 3;
+// })
+
+// function formInfo(el) {
+//     var pinInputs = el.pinId.value;
+//     document.getElementById('attepmptsId').innerHTML = pinInputs;
+
+//     let pin = "1111";
+
+//         if (pinInputs === pin) {
+//             document.getElementById('wholeString').textContent = 'SUCCESS!';
+//         } else {
+//             console.log("Card is locked! Try to get more information later.");
+//         }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // let attemp = 0;
