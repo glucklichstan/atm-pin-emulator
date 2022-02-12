@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 // let attemptCount = document.getElementById('attepmptsId');
 // let button = document.getElementById('buttonId');
 // let pinInputs = document.getElementById('pinId').value;
@@ -22,18 +10,18 @@
 //     var count = 3;
 // })
 
-// function formInfo(el) {
-//     var pinInputs = el.pinId.value;
-//     document.getElementById('attepmptsId').innerHTML = pinInputs;
+function formInfo(el) {
+    var pinInputs = el.pinId.value;
+    document.getElementById('attepmptsId').innerHTML = pinInputs;
 
-//     let pin = "1111";
+    let pin = "1111";
 
-//         if (pinInputs === pin) {
-//             document.getElementById('wholeString').textContent = 'SUCCESS!';
-//         } else {
-//             console.log("Card is locked! Try to get more information later.");
-//         }
-// }
+        if (pinInputs === pin) {
+            document.getElementById('stringId').textContent = 'SUCCESS!';
+        } else {
+            console.log("Card is locked! Try to get more information later.");
+        }
+}
 
 
 
