@@ -11,22 +11,24 @@
 // })
 
 document.getElementById('buttonId').onclick = function myPin() {
+    
+    
+
     let pin = '1234';
     let pinEnter = document.getElementById('pinId').value;
     console.log(pinEnter);
     if (pinEnter == pin) {
         document.getElementById('stringId').textContent = 'Success';
         document.getElementById('stringId').style.color = 'green';
+        document.getElementById('main-form').style.display = 'none';
         setTimeout(function() {
-            // Do something after 5 seconds
             location.reload();//reload page
-      }, 500);
+      }, 2000);
     } else {
         document.getElementById('stringId').textContent = 'Wrong PIN. Page will reload now.';
         document.getElementById('stringId').style.color = 'red';
         document.getElementById('main-form').style.display = 'none';
         setTimeout(function() {
-            // Do something after 5 seconds
             location.reload();//reload page
       }, 2000);
 
